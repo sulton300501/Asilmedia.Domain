@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asilmedia.Domain", "Asilmedia.Domain\Asilmedia.Domain.csproj", "{E0D91265-FD5A-41BE-A2E7-55DBE5C65F21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1EFD4F33-4617-4AE6-8E2F-A0571EE706C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F176F992-273A-4673-837C-7092CF3DBC7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsilMedia.Application", "AsilMedia.Application\AsilMedia.Application.csproj", "{38F0337E-2477-4AE3-975B-870672BAA8C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{6C469651-89DA-4604-B637-6B174F78533B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asilmedia.Infrastructure", "Asilmedia.Infrastructure\Asilmedia.Infrastructure.csproj", "{45592EE5-0557-4AC0-8F74-0E66E1A603AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asilmedia.API", "Asilmedia.API\Asilmedia.API.csproj", "{862A1107-FD9A-4567-A51C-25276268A5A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0D91265-FD5A-41BE-A2E7-55DBE5C65F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D91265-FD5A-41BE-A2E7-55DBE5C65F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D91265-FD5A-41BE-A2E7-55DBE5C65F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D91265-FD5A-41BE-A2E7-55DBE5C65F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F0337E-2477-4AE3-975B-870672BAA8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F0337E-2477-4AE3-975B-870672BAA8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F0337E-2477-4AE3-975B-870672BAA8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F0337E-2477-4AE3-975B-870672BAA8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45592EE5-0557-4AC0-8F74-0E66E1A603AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45592EE5-0557-4AC0-8F74-0E66E1A603AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45592EE5-0557-4AC0-8F74-0E66E1A603AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45592EE5-0557-4AC0-8F74-0E66E1A603AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862A1107-FD9A-4567-A51C-25276268A5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862A1107-FD9A-4567-A51C-25276268A5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862A1107-FD9A-4567-A51C-25276268A5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862A1107-FD9A-4567-A51C-25276268A5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0D91265-FD5A-41BE-A2E7-55DBE5C65F21} = {F176F992-273A-4673-837C-7092CF3DBC7B}
+		{F176F992-273A-4673-837C-7092CF3DBC7B} = {1EFD4F33-4617-4AE6-8E2F-A0571EE706C8}
+		{38F0337E-2477-4AE3-975B-870672BAA8C6} = {F176F992-273A-4673-837C-7092CF3DBC7B}
+		{6C469651-89DA-4604-B637-6B174F78533B} = {1EFD4F33-4617-4AE6-8E2F-A0571EE706C8}
+		{45592EE5-0557-4AC0-8F74-0E66E1A603AC} = {6C469651-89DA-4604-B637-6B174F78533B}
+		{862A1107-FD9A-4567-A51C-25276268A5A9} = {6C469651-89DA-4604-B637-6B174F78533B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283664D6-BE45-45E0-901A-CA09CFBE1863}
+	EndGlobalSection
+EndGlobal
